@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Excepciones">
+      <UniqueIdentifier>{90706fe9-cce3-435b-a603-926915643434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ficheros">
+      <UniqueIdentifier>{d28fd57c-29c4-4bbb-ae0c-e5df45b292aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ficheros\Header">
+      <UniqueIdentifier>{6fe99c3b-67ff-4e09-a7ab-4a17211992bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ficheros\Sources">
+      <UniqueIdentifier>{24c084a7-91d6-47e2-9bb3-81a6f4281687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Esteganografia">
+      <UniqueIdentifier>{1b2d2045-daf7-4bc7-b1f6-15cd21844e07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Esteganografia\Sources">
+      <UniqueIdentifier>{a44f109d-0a0c-4d8c-b33e-6cd21b1bd2b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Esteganografia\Headers">
+      <UniqueIdentifier>{04fe6e2b-12c0-4757-84a5-1b212ebe14dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WAV.h">
+      <Filter>Ficheros\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BMP.h">
+      <Filter>Ficheros\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Pixel.h">
+      <Filter>Ficheros\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomAccessFile.h">
+      <Filter>Ficheros\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionTypes.h">
+      <Filter>Excepciones</Filter>
+    </ClInclude>
+    <ClInclude Include="Esteganografia_LSB.h">
+      <Filter>Esteganografia\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WAV.cpp">
+      <Filter>Ficheros\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="BMP.cpp">
+      <Filter>Ficheros\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Pixel.cpp">
+      <Filter>Ficheros\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomAccessFile.cpp">
+      <Filter>Ficheros\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Esteganografia_LSB.cpp">
+      <Filter>Esteganografia\Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

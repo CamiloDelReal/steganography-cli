@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Esteganografia", "Esteganografia\Esteganografia.vcxproj", "{FF28ED05-A611-4F91-A8B4-642EC2101AA8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Logical", "Logical\Logical.vcxproj", "{F47DE2A5-FB0A-4BA3-ABC2-DD581A79FDAB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Testing", "Testing\Testing.vcxproj", "{DAD29AED-616E-40F0-A87D-45DAC0841F2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF28ED05-A611-4F91-A8B4-642EC2101AA8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FF28ED05-A611-4F91-A8B4-642EC2101AA8}.Debug|Win32.Build.0 = Debug|Win32
+		{FF28ED05-A611-4F91-A8B4-642EC2101AA8}.Release|Win32.ActiveCfg = Release|Win32
+		{FF28ED05-A611-4F91-A8B4-642EC2101AA8}.Release|Win32.Build.0 = Release|Win32
+		{F47DE2A5-FB0A-4BA3-ABC2-DD581A79FDAB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F47DE2A5-FB0A-4BA3-ABC2-DD581A79FDAB}.Debug|Win32.Build.0 = Debug|Win32
+		{F47DE2A5-FB0A-4BA3-ABC2-DD581A79FDAB}.Release|Win32.ActiveCfg = Release|Win32
+		{F47DE2A5-FB0A-4BA3-ABC2-DD581A79FDAB}.Release|Win32.Build.0 = Release|Win32
+		{DAD29AED-616E-40F0-A87D-45DAC0841F2A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DAD29AED-616E-40F0-A87D-45DAC0841F2A}.Debug|Win32.Build.0 = Debug|Win32
+		{DAD29AED-616E-40F0-A87D-45DAC0841F2A}.Release|Win32.ActiveCfg = Release|Win32
+		{DAD29AED-616E-40F0-A87D-45DAC0841F2A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
